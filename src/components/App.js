@@ -73,7 +73,7 @@ class App extends Component {
       <div>
         <form>
           <div className="choose">
-          <label className="dropdown-label">All the Feels</label>
+          <label className="dropdown-label"> What's your Mood? </label>
         </div>
           <select className="browser-default" onChange={this.handleMoodChange} id="mood" value={this.state.value}>
             <option selected="true" disabled="disabled" value="">Choose Your Mood Here</option>
